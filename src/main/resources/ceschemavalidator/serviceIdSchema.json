@@ -1,0 +1,21 @@
+{
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "object",
+        "properties": {
+                "status": {
+                        "type": "string"
+                },
+                "url": {
+                        "type": "string"
+                },
+                "type": {
+                        "type": "null"
+                }
+        },
+        "required": [
+                "status",
+                "url",
+                "message",
+                "type"
+        ]
+}
